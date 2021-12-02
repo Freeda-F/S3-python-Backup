@@ -1,6 +1,6 @@
 # S3-python-Backup
 
-Simple Python backup script for backing up files into S3
+Simple Python backup script for backing up files into S3 bucket.
 
 ## Requirements
 
@@ -32,19 +32,14 @@ pip3 install boto3
 
 ## Configuration
 
+```
 git clone https://github.com/Freeda-F/S3-python-Backup.git
-
+cd S3-python-Backup
+python3 backup-script-s3.py /var/www/ or ./backup-script-s3.py /var/www/
+```
+Note : Make sure to change the parameters in the settings.py file to your IAM credentials and bucket name.
 
 ## Result
 
-
-
-
-
-
-
-
-
-
-
+After executing this script, you will have the backup of the directories in .tar.gz file format in your S3 Bucket. 
 
