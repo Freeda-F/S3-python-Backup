@@ -27,10 +27,17 @@ yum install -y python3-pip
 ```
 2. This script requires boto, to install boto simply 
 ```
-pip install boto
+pip3 install boto3
 ```
 
 ## Configuration
+
+git clone https://github.com/Freeda-F/S3-python-Backup.git
+
+
+## Result
+
+
 
 
 
